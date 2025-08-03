@@ -13,8 +13,8 @@
         <ul>
             <li><a href="food">Food List</a></li>
             <c:if test="${user.role.name == 'admin'}">
-             <li><a href="admin">Admin menu</a></li>
-             <li><a href="foodlist?action=new">Add Food</a></li>
+             <li><a href="admin">Role Management</a></li>
+             <li><a href="user">User List</a></li>
             </c:if>
             <li><a href="logout">logout</a></li>
         </ul>

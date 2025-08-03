@@ -1,3 +1,7 @@
+<h1>SIMPLE JSV MVC CRUD WITH USER PERMISSIONS</h1>
+
+<h3>GUIDE:</h3>
+
 1. Don't forget create database first, or use this mysql dump file : 
 `dump-jsvmvc.sql`
 
@@ -11,18 +15,18 @@
 3. RUN  CLI : 
 `mvn clean package`
 
-4. and then copy file extiontion .war to your apache tomcat path
+4. and then copy file extiontion .war to your apache tomcat path <br>
 `cp <your-path->\target\jsp-mvc.war "<your-path>\tomcat\webapps\jsp-mvc.war"`
 
 5. Run apache tomcat
 
 <br>
 <br>
--------------------------------
+<hr>
 
-Environtment :
-Apache Tomcat/11.0.8<br>
-Mysql 8.2<br>
+<h3>Requirements:</h3>
+Minimal Apache Tomcat/11.0.8<br>
+Minimal Mysql 5.2<br>
 java 24 2025-03-18<br>
 Java(TM) SE Runtime Environment (build 24+36-3646)
 Java HotSpot(TM) 64-Bit Server VM (build 24+36-3646, mixed mode, sharing)
